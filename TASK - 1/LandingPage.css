@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    line-height: 1.6;
+    color: #333;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: #151515;
+    color: #fff;
+}
+
+header .logo {
+    font-size: 1.5rem;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+}
+
+header nav ul li {
+    margin-left: 1.5rem;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.hero {
+    height: 80vh;
+    background: url('6.jpg') no-repeat center center/cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.hero p {
+    font-size: 1.25rem;
+    margin-bottom: 1.5rem;
+}
+
+.hero button {
+    padding: 0.75rem 1.5rem;
+    background-color: #333131;
+    border: none;
+    color: #ecd363;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.features1 {
+    display: flex;
+    justify-content: space-around;
+    padding: 2rem;
+    background: url('1.jpg') no-repeat center center/cover;
+}
+
+.features2 {
+    display: flex;
+    justify-content: space-around;
+    padding: 2rem;
+    background: url('2.jpg') no-repeat center center/cover;
+}
+.features3 {
+    display: flex;
+    justify-content: space-around;
+    padding: 2rem;
+    background: url('9.jpg') no-repeat center center/cover;
+}
+.features .feature {
+    max-width: 30%;
+    text-align: center;
+}
+
+.features .feature h2 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.testimonials {
+    padding: 2rem;
+    text-align: center;
+    background: url('3.jpg') no-repeat center center/cover;
+}
+
+.testimonials h2 {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+}
+
+.testimonials .testimonial {
+    margin: 1rem 0;
+}
+
+footer {
+    padding: 1rem;
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+}
+
+footer .social-media a {
+    color: #fff;
+    margin: 0 0.5rem;
+    text-decoration: none;
+}
